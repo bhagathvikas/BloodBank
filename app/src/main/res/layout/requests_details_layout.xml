@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+
+    app:cardElevation="15dp">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+           android:textSize="25sp"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:id="@+id/tvrname"
+
+            />
+
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Name"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_marginLeft="125dp"
+
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="BloodGroup:"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:id="@+id/tvrbloodgroup"
+            android:layout_below="@id/tvrname"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bloodgroup"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:id="@+id/txtbloodgroup"
+            android:layout_below="@+id/txtname"
+
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

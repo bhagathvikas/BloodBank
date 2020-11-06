@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/violet"
+    tools:context=".RequestDetailsActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:text="Pateint Details"
+        android:id="@+id/tvlist"
+        android:textSize="45dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_below="@+id/toolbar"
+
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="125dp"
+        android:text="Name    :"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:id="@+id/tvrdname"
+
+        />
+
+    <TextView
+        android:id="@+id/txtdname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tvrdname"
+
+
+        android:layout_marginStart="174dp"
+
+        android:layout_marginTop="125dp"
+        android:padding="10dp"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age        :"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:id="@+id/tvrdage"
+        android:layout_below="@+id/tvrdname"
+
+        />
+
+    <TextView
+        android:id="@+id/txtdage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdname"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="174dp"
+        android:inputType="number"
+        android:padding="10dp"
+        android:text="Age"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Phone Number :"
+        android:textSize="25sp"
+        android:textColor="#000"
+
+        android:padding="10dp"
+        android:id="@+id/tvrdphonenumber"
+        android:layout_below="@+id/tvrdage"
+
+        />
+
+    <TextView
+        android:id="@+id/txtdphonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdage"
+
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginTop="13dp"
+
+
+        android:layout_marginEnd="65dp"
+        android:inputType="phone"
+        android:maxLength="10"
+
+        android:padding="10dp"
+        android:text="PhoneNumber"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:padding="10dp"
+        android:id="@+id/tvrdhospital"
+        android:layout_below="@+id/tvrdphonenumber"
+
+        />
+
+    <TextView
+        android:id="@+id/txtdhospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdphonenumber"
+
+        android:layout_alignParentStart="true"
+
+        android:layout_marginStart="175dp"
+
+        android:layout_marginTop="9dp"
+        android:padding="10dp"
+        android:text="Hospital"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvrdbloodgroup"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvrdhospital"
+        android:layout_marginTop="4dp"
+        android:padding="10dp"
+
+        android:text="BloodGroup :"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+
+    <TextView
+        android:id="@+id/txtdbloodgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdhospital"
+
+        android:layout_alignStart="@+id/tvrdbloodgroup"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="20dp"
+
+        android:padding="10dp"
+        android:text="bloodgroup"
+        android:textColor="#000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:text="Request Date:"
+        android:layout_below="@+id/txtdbloodgroup"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginTop="25sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date:"
+        android:id="@+id/requestdate"
+        android:layout_below="@+id/txtdbloodgroup"
+        android:layout_marginLeft="185dp"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginTop="35dp"
+        />
+
+
+    <Button
+        android:id="@+id/callnow"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdbloodgroup"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@+id/locationbtn"
+
+        android:background="@drawable/desgin"
+        android:backgroundTint="@color/backgroud"
+        android:text="CallNow"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/locationbtn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvrdbloodgroup"
+        android:layout_marginStart="15dp"
+android:backgroundTint="@color/backgroud"
+        android:layout_marginTop="92dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/desgin"
+
+
+        android:text="Directions"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

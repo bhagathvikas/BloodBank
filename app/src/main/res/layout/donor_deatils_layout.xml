@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp"
+
+    >
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:id="@+id/tvrname"
+
+            />
+
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Name"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:layout_marginLeft="125dp"
+
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="BloodGroup:"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:id="@+id/tvrbloodgroup"
+            android:layout_below="@id/tvrname"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="bloodgroup"
+            android:textSize="25sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:id="@+id/txtbloodgroup"
+            android:layout_below="@+id/txtname"
+
+            />
+        <TextView
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Phone Number :"
+            android:textSize="25sp"
+            android:textColor="#000"
+
+            android:padding="10dp"
+            android:id="@+id/tvrdphonenumber"
+            android:layout_below="@+id/tvrbloodgroup"
+
+            />
+        <TextView
+            android:id="@+id/txtdphonenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvrbloodgroup"
+
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginTop="13dp"
+
+
+            android:layout_marginEnd="65dp"
+            android:inputType="phone"
+            android:maxLength="10"
+
+            android:padding="10dp"
+            android:text="PhoneNumber"
+            android:textColor="#000"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/callnow"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvrdphonenumber"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/locationbtn"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shapes"
+            android:text="CallNow"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

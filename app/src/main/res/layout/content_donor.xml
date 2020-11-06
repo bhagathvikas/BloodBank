@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_donor">
+
+    <TextView
+        android:id="@+id/tvlist"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+
+        android:background="@drawable/rectangle_4"
+        android:textAlignment="center"
+        android:text="Donor List"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_menu"
+        android:layout_below="@+id/tvlist"
+        android:background="@drawable/rectangle_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        >
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="backgorund">#CA2580</color>
+    <color name="ubg">#D7E96559</color>
+    <color name="violet">#A1A5E4</color>
+    <color name="blue">#3D4DB8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="backgroud">#DDD9D9</color>
+    <color name="lol">#D56A71</color>
+
+
+</resources>
